@@ -1,0 +1,52 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:left;
+}
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	 padding: 50px;
+  text-align: left;
+  background-image:url(22.jpg);
+	background-size: cover;
+background-repeat: no-repeat;
+	margin: 0px;
+
+}
+.col {
+	background-color: white;
+	border: 2px solid black;
+}
+body{
+	background-color: 	#636c7e;
+	}
+
+h1{
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Special Elite', cursive;
+	font-family: 'Fredericka the Great', cursive;
+	color:	#636c7e;
+	font-size: 5em;
+	/*border-bottom: 1.5px solid #120206;
+	border-right:1.5px solid #120206;
+	box-shadow: 3px 3px 3px #88888888;
+		/*-webkit-text-stroke: .5px  #ccd7ff;*/
+		text-shadow: 5px 5px 5px #88888888; 
+		width: 700px;
+		text-align:center;
+		 word-wrap: break-word;
+		 line-height: 50px;
+
+}
+img {
+	width: 300px;
+	height: 250px;
+	margin: 30px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.2);
+	animation: 
+}
